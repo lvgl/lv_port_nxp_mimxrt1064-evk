@@ -1,2 +1,1 @@
-../hal/clock_config.c:180:6:BOARD_BootClockRUN	16	static
-../hal/clock_config.c:49:6:BOARD_InitBootClocks	0	static
+../hal/clock_config.c:172:6:BOARD_BootClockRUN	16	static

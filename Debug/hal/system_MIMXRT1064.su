@@ -1,3 +1,2 @@
-../hal/system_MIMXRT1064.c:131:6:SystemCoreClockUpdate	16	static
-../hal/system_MIMXRT1064.c:236:29:SystemInitHook	0	static
+../hal/system_MIMXRT1064.c:132:29:SystemInitHook	0	static
 ../hal/system_MIMXRT1064.c:73:6:SystemInit	8	static

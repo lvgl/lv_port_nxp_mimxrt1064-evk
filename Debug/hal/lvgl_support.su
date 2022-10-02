@@ -1,0 +1,6 @@
+../hal/lvgl_support.c:330:13:DEMO_FlushDisplay	16	static
+../hal/lvgl_support.c:499:13:DEMO_ReadTouch	16	static
+../hal/lvgl_support.c:156:6:lv_port_pre_init	0	static
+../hal/lvgl_support.c:160:6:lv_port_disp_init	64	static
+../hal/lvgl_support.c:201:6:LCDIF_IRQHandler	0	static
+../hal/lvgl_support.c:361:6:lv_port_indev_init	40	static

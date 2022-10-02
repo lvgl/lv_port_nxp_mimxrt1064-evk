@@ -35,24 +35,8 @@
  **********************/
 void lvgl_log_init(void)
 {
-    static lv_indev_drv_t indev_drv;
-
-    /*------------------
-     * Touchpad
-     * -----------------*/
-
-    /*Initialize your touchpad */
-    InitChip();
-
-    /*Register a touchpad input device*/
-    lv_indev_drv_init(&indev_drv);
-    indev_drv.type    = LV_INDEV_TYPE_POINTER;
-    indev_drv.read_cb = DEMO_ReadTouch;
-    lv_indev_drv_register(&indev_drv);
+	lv_log_register_print_cb(print_cb);
 }
-
-
-
 
 /**********************
  *   STATIC FUNCTIONS

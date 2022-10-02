@@ -1,8 +1,0 @@
-../hal/fsl_elcdif.c:75:17:ELCDIF_GetInstance.part.0	8	static
-../hal/fsl_elcdif.c:102:6:ELCDIF_RgbModeInit	24	static
-../hal/fsl_elcdif.c:178:6:ELCDIF_RgbModeGetDefaultConfig	8	static
-../hal/fsl_elcdif.c:206:6:ELCDIF_RgbModeSetPixelFormat	8	static
-../hal/fsl_elcdif.c:222:6:ELCDIF_Deinit	8	static
-../hal/fsl_elcdif.c:241:6:ELCDIF_RgbModeStop	0	static
-../hal/fsl_elcdif.c:256:6:ELCDIF_Reset	0	static
-../hal/fsl_elcdif.c:350:10:ELCDIF_UpdateLut	4	static

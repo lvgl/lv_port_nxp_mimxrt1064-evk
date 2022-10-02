@@ -26,6 +26,8 @@ extern "C" {
  * GLOBAL PROTOTYPES
  **********************/
 
+void lvgl_touch_init(void);
+
 /**********************
  *      MACROS
  **********************/

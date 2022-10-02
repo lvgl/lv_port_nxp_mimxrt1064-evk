@@ -80,6 +80,7 @@ static ft5406_rt_handle_t touchHandle;
 /**********************
  *   GLOBAL FUNCTIONS
  **********************/
+
 void lvgl_touch_init(void)
 {
     static lv_indev_drv_t indev_drv;

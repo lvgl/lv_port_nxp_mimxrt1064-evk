@@ -1,9 +1,54 @@
+/**
+ * @file main.c
+ *
+ */
+
+/*********************
+ *      INCLUDES
+ *********************/
 #include "fsl_debug_console.h"
-#include "disp.h"
-#include "touch.h"
 #include "pin_mux.h"
 #include "board.h"
 #include "lvgl.h"
+
+/*LVGL drivers*/
+#include "disp.h"
+#include "touch.h"
+#include "tick.h"
+#include "log.h"
+
+/*********************
+ *      DEFINES
+ *********************/
+
+/**********************
+ *      TYPEDEFS
+ **********************/
+
+/**********************
+ *  STATIC PROTOTYPES
+ **********************/
+
+/**********************
+ *  STATIC VARIABLES
+ **********************/
+
+/**********************
+ *      MACROS
+ **********************/
+
+/**********************
+ *   GLOBAL FUNCTIONS
+ **********************/
+
+/**********************
+ *   STATIC FUNCTIONS
+ **********************/
+
+
+
+
+/**
 
 /*******************************************************************************
  * Definitions
@@ -16,10 +61,6 @@
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/
-static void DEMO_SetupTick(void);
-#if LV_USE_LOG
-static void print_cb(const char *buf);
-#endif
 
 /*******************************************************************************
  * Code
@@ -50,15 +91,12 @@ int main(void)
     lvgl_touch_init();
     lvgl_log_init();
 
-#if LV_USE_LOG
-    lv_log_register_print_cb(print_cb);
-#endif
-
     for (;;)
     {
     	lvgl_wait_to_call_timer_handler();
 
         lv_timer_handler();
     }
+
 }
 

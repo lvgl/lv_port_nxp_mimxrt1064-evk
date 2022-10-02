@@ -25,6 +25,7 @@ extern "C" {
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
+void lvgl_log_init(void);
 
 /**********************
  *      MACROS

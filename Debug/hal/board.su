@@ -1,2 +1,0 @@
-../hal/board.c:25:6:BOARD_InitDebugConsole	8	static
-../hal/board.c:44:6:BOARD_ConfigMPU	32	static

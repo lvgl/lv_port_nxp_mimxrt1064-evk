@@ -93,6 +93,9 @@ static void InitLcdBackLight(void);
 static void InitLcd(void);
 static void FlushDisplay(lv_disp_drv_t *disp_drv, const lv_area_t *area, lv_color_t *color_p);
 
+#if LV_USE_GPU_NXP_PXP
+static void DEMO_CleanInvalidateCache(lv_disp_drv_t *disp_drv);
+#endif
 static AT_QUICKACCESS_SECTION_CODE(void BOARD_ReconfigFlexSpiRxBuffer(void));;
 /**********************
  *  STATIC VARIABLES

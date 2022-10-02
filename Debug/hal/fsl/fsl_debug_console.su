@@ -1,8 +1,0 @@
-../hal/fsl/fsl_debug_console.c:195:5:DbgConsole_Putchar	16	static
-../hal/fsl/fsl_debug_console.c:606:12:DbgConsole_PrintfFormattedData.constprop	104	static
-../hal/fsl/fsl_debug_console.c:114:10:DbgConsole_Init	32	static
-../hal/fsl/fsl_debug_console.c:149:10:DbgConsole_Deinit	8	static
-../hal/fsl/fsl_debug_console.c:166:5:DbgConsole_Printf	16	static
-../hal/fsl/fsl_debug_console.c:179:5:DbgConsole_Vprintf	0	static
-../hal/fsl/fsl_debug_console.c:208:5:DbgConsole_Scanf	72	static
-../hal/fsl/fsl_debug_console.c:267:5:DbgConsole_Getchar	16	static

@@ -1,0 +1,4 @@
+../hal/pin_mux.c:103:6:BOARD_InitPins	4	static
+../hal/pin_mux.c:35:6:BOARD_InitBootPins	8	static
+../hal/pin_mux.c:259:6:BOARD_InitSemcPins	0	static
+../hal/pin_mux.c:361:6:BOARD_InitI2C1Pins	0	static

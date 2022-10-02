@@ -1,0 +1,5 @@
+../hal/touchpanel/fsl_gt911.c:73:10:GT911_Init	224	static
+../hal/touchpanel/fsl_gt911.c:197:10:GT911_Deinit	8	static
+../hal/touchpanel/fsl_gt911.c:233:10:GT911_GetSingleTouch	48	static
+../hal/touchpanel/fsl_gt911.c:262:10:GT911_GetMultiTouch	48	static
+../hal/touchpanel/fsl_gt911.c:311:10:GT911_GetResolution	4	static

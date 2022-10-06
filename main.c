@@ -91,6 +91,8 @@ int main(void)
     lvgl_touch_init();
     lvgl_log_init();
 
+    lv_demo_widgets();
+
     for (;;)
     {
     	lvgl_wait_to_call_timer_handler();

@@ -121,6 +121,8 @@ void lvgl_disp_init(void)
 
     lv_disp_draw_buf_init(&disp_buf, s_frameBuffer[0], s_frameBuffer[1], LCD_WIDTH * LCD_HEIGHT);
 
+//    memset(s_frameBuffer[0], 0x44m )
+
     /*-------------------------
      * Initialize your display
      * -----------------------*/

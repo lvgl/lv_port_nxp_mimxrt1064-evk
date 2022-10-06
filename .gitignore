@@ -50,4 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
 /Debug/
+=======
+>>>>>>> 58b1942bad4933fe5f00bddd6a440f5f782b07db
